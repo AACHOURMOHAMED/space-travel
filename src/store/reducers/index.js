@@ -1,10 +1,10 @@
-import { combineReducers } from 'redux'
-import missionsReducer  from './missions_reducer';
-import roketsReducer from './rokets_reducer';
+import { combineReducers } from 'redux';
+import missions from './missions_reducer';
+import rokets from './rokets_reducer';
 
 const rootReducer = combineReducers({
-    missionsReducer,
-    roketsReducer
+  missions,
+  rokets,
 });
 
 export default rootReducer;
