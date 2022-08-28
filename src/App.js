@@ -1,10 +1,14 @@
 import './App.css';
-import Home from './components/home';
+import { Container } from 'react-bootstrap';
+import Rockets from './pages/rockets';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
     <div className="App">
-      <Home />
+      <Container>
+        <Rockets />
+      </Container>
     </div>
   );
 }
