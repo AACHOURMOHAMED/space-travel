@@ -17,7 +17,7 @@ const RoketsItem = (props) => {
   };
   return (
     <ul key={id} className={classes.roketsItem}>
-      <li>
+      <li className={classes.imgCover}>
         <img src={image} alt={name} className={classes.imageRoket} />
       </li>
       <ul className={classes.roketsContent}>
