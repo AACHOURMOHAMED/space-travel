@@ -6,7 +6,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Dragons from './pages/Dragons';
 import MyProfile from './pages/MyProfile';
 import Missions from './pages/Missions';
-import Header from './components/header';
+import Header from './components/Header';
 
 function App() {
   return (
