@@ -18,7 +18,7 @@
 
 ## Live Demo
 
-[Live Demo](https://hub-space-travelers.netlify.app/)
+[Live Demo](https://deploy-preview-24--scintillating-florentine-4a0618.netlify.app/)
 
 ## Getting Started
 
