@@ -10,7 +10,9 @@ const HomeRokets = () => {
   const dispatch = useDispatch();
 
   useEffect(() => {
-    dispatch(getRokets());
+    if (rokets.length === 0) {
+      dispatch(getRokets());
+    }
   }, []);
   return (
     <div className={classes.Rokets}>
