@@ -1,11 +1,21 @@
-import * as actions from '../types';
+import * as types from '../types';
 
 const initialState = [];
 
 const missionsReducer = (state = initialState, action) => {
   switch (action.type) {
-    case actions.GET_MISSIONS:
-      return [...state, ...action.payload];
+    case `${types.GET_MISSIONS}/fulfilled`:
+      return action.payload;
+    case `${types.MISSIONS_RESERVED}`:
+      return state.map((mission) => {
+        if (mission.id === action.payload) {
+          return {
+            ...mission,
+            reserved: !mission.reserved,
+          };
+        }
+        return mission;
+      });
     default:
       return state;
   }

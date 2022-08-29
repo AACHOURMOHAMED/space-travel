@@ -1,0 +1,27 @@
+.roketsItem {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  box-shadow: 1px 2px 5px 2px  rgba(0, 0, 0, 0.199);
+  max-height: 250px;
+  padding-left: 0;
+
+  .roketsContent {
+    list-style: none;
+    padding: 20px;
+  }
+
+  .imageRoket {
+    width: 280px;
+    height: 250px;
+    object-fit: cover;
+  }
+
+  .reservedMsg {
+    width: fit-content;
+    border-radius: 8px;
+    margin: 0;
+    color: rgb(0, 89, 255);
+    font-weight: bold;
+  }
+}
