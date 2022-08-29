@@ -2,6 +2,7 @@ import './App.css';
 import { Container } from 'react-bootstrap';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Rockets from './pages/rockets';
+// eslint-disable-next-line import/extensions
 import Header from './components/Header';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Dragons from './pages/Dragons';
